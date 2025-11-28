@@ -63,13 +63,18 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+
     function renderProducts(category) {
         productsContainer.innerHTML = '';
         const products = productsData[category] || [];
 
-        products.forEach(product => {
+        products.forEach((product, index) => {
             const productCard = document.createElement('div');
             productCard.classList.add('product-card');
+            // Add AOS attributes dynamically
+            productCard.setAttribute('data-aos', 'zoom-in');
+            productCard.setAttribute('data-aos-delay', (index + 1) * 100);
+            
             productCard.innerHTML = `
                 <div class="product-img-wrapper">
                     <img src="${product.img}" alt="${product.name}">
@@ -93,4 +98,10 @@ document.addEventListener('DOMContentLoaded', () => {
             productsContainer.appendChild(productCard);
         });
     }
+});
+
+// Initialize AOS
+AOS.init({
+    once: true, // Whether animation should happen only once - while scrolling down
+    offset: 100, // Offset (in px) from the original trigger point
 });

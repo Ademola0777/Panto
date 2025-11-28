@@ -11,12 +11,14 @@
     <link href="https://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
 
     <!-- Header / Navbar -->
-    <header>
+    <header data-aos="fade-down" data-aos-duration="1000">
         <nav class="container">
             <a href="#" class="logo">Panto</a>
             <ul class="nav-links">
@@ -34,7 +36,7 @@
 
     <!-- Hero Section -->
     <section id="hero">
-        <div class="container hero-content">
+        <div class="container hero-content" data-aos="fade-up" data-aos-duration="1200">
             <h1>Make Your Interior More Minimalistic & Modern</h1>
             <p>Turn your room with panto into a lot more minimalist and modern with ease and speed</p>
             <div class="search-bar">
@@ -46,21 +48,21 @@
 
     <!-- Why Choosing Us -->
     <section id="why-us" class="container">
-        <h2>Why Choosing Us</h2>
+        <h2 data-aos="fade-right">Why Choosing Us</h2>
         <div class="features-grid">
-            <div class="feature-card">
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
                 <h3>Luxury facilities</h3>
                 <p>The advantage of hiring a workspace with us is that givees you comfortable service and all-around
                     facilities.</p>
                 <a href="#" class="read-more">More Info <i class="fa-solid fa-arrow-right"></i></a>
             </div>
-            <div class="feature-card">
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
                 <h3>Affordable Price</h3>
                 <p>You can get a workspace of the highst quality at an affordable price and still enjoy the facilities
                     that are oly here.</p>
                 <a href="#" class="read-more">More Info <i class="fa-solid fa-arrow-right"></i></a>
             </div>
-            <div class="feature-card">
+            <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
                 <h3>Many Choices</h3>
                 <p>We provide many unique work space choices so that you can choose the workspace to your liking.</p>
                 <a href="#" class="read-more">More Info <i class="fa-solid fa-arrow-right"></i></a>
@@ -71,8 +73,8 @@
     <!-- Best Selling Product -->
     <section id="best-selling">
         <div class="container">
-            <h2>Best Selling Product</h2>
-            <div class="tabs">
+            <h2 data-aos="fade-up">Best Selling Product</h2>
+            <div class="tabs" data-aos="fade-up" data-aos-delay="100">
                 <button class="tab-btn active" data-tab="chair">Chair</button>
                 <button class="tab-btn" data-tab="beds">Beds</button>
                 <button class="tab-btn" data-tab="sofa">Sofa</button>
@@ -80,7 +82,7 @@
             </div>
             <div class="products-grid" id="products-container">
                 <!-- Product Items will be populated here or static for now -->
-                <div class="product-card">
+                <div class="product-card" data-aos="zoom-in" data-aos-delay="100">
                     <div class="product-img-wrapper">
                         <img src="Assets/Images/sakarias-armchair.png" alt="Sakarias Armchair">
                     </div>
@@ -100,7 +102,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="product-card">
+                <div class="product-card" data-aos="zoom-in" data-aos-delay="200">
                     <div class="product-img-wrapper">
                         <img src="Assets/Images/balstar-chair.png" alt="Baltsar Chair">
                     </div>
@@ -120,7 +122,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="product-card">
+                <div class="product-card" data-aos="zoom-in" data-aos-delay="300">
                     <div class="product-img-wrapper">
                         <img src="Assets/Images/anjay-chair.png" alt="Anjay Chair">
                     </div>
@@ -140,7 +142,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="product-card">
+                <div class="product-card" data-aos="zoom-in" data-aos-delay="400">
                     <div class="product-img-wrapper">
                         <img src="Assets/Images/nyantuy-chair.png" alt="Nyantuy Chair">
                     </div>
@@ -161,7 +163,7 @@
                     </div>
                 </div>
             </div>
-            <div class="view-all-container">
+            <div class="view-all-container" data-aos="fade-up">
                 <a href="#" class="view-all-btn">View All <i class="fa-solid fa-arrow-right"></i></a>
             </div>
             <div>
@@ -169,11 +171,11 @@
 
     <!-- Experiences -->
     <section id="experiences" class="container">
-        <div class="exp-image">
+        <div class="exp-image" data-aos="fade-right">
             <img src="Assets/Images/exp-1.jpg" alt="Experience">
             <!-- Floating card overlay could go here -->
         </div>
-        <div class="exp-content">
+        <div class="exp-content" data-aos="fade-left">
             <span class="subtitle">EXPERIENCES</span>
             <h2>We Provide You The Best Experience</h2>
             <p>You don't have to worry about the result because all of these interiors are made by people who are
@@ -184,14 +186,14 @@
 
     <!-- Materials -->
     <section id="materials" class="container">
-        <div class="mat-content">
+        <div class="mat-content" data-aos="fade-right">
             <span class="subtitle">MATERIALS</span>
             <h2>Very Serious Materials For Making Furniture</h2>
             <p>Because panto was very serious about designing furniture for our environment, using a very expensive and
                 famous capital but at a relatively low price</p>
             <a href="#" class="read-more">More Info <i class="fa-solid fa-arrow-right"></i></a>
         </div>
-        <div class="mat-images">
+        <div class="mat-images" data-aos="fade-left">
             <div class="mat-col-1">
                 <img src="Assets/Images/mat-1.jpg" alt="Material 1">
                 <img src="Assets/Images/mat-2.jpg" alt="Material 2">
@@ -204,9 +206,9 @@
 
     <!-- Testimonials -->
     <section id="testimonials" class="container">
-        <span class="subtitle-center">TESTIMONIALS</span>
-        <h2 class="center-heading">Our Client Reviews</h2>
-        <div class="testimonials-slider">
+        <span class="subtitle-center" data-aos="fade-up">TESTIMONIALS</span>
+        <h2 class="center-heading" data-aos="fade-up" data-aos-delay="100">Our Client Reviews</h2>
+        <div class="testimonials-slider" data-aos="fade-up" data-aos-delay="200">
             <!-- Review 1 -->
             <div class="review-card">
                 <div class="review-bg" style="background-image: url('Assets/Images/testimonial-1.jpg');"></div>
@@ -270,7 +272,7 @@
 
     <!-- Footer -->
     <footer>
-        <div class="container footer-content">
+        <div class="container footer-content" data-aos="fade-up">
             <div class="footer-brand">
                 <a href="#" class="logo">Panto</a>
                 <p>The advantage of hiring a workspace with us is that givees you comfortable service and all-around
@@ -306,6 +308,8 @@
         </div>
     </footer>
 
+    <!-- AOS Animation Library JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="Assets/script.js"></script>
 </body>
 
