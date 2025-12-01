@@ -346,7 +346,7 @@ nav {
 
 /* Best Selling Product */
 #best-selling {
-    padding: 3.125rem var(--section-spacing); 
+    padding: 1rem; 
     background-color: var(--bg-light);
 }
 
@@ -754,7 +754,7 @@ footer {
     .tab-btn {
         font-size: 1rem; 
         padding: 0.5rem 1.25rem; 
-        flex: 1 1 auto; /* Allow buttons to shrink/grow */
+        flex: 1 1 auto;
     }
     
     .footer-content {
@@ -780,7 +780,6 @@ footer {
         align-items: center;
     }
 
-    /* Fix Testimonials Overflow */
     .review-card {
         min-width: 18.75rem; 
         height: auto;
@@ -796,7 +795,6 @@ footer {
         padding: 0 1.25rem; 
     }
 
-    /* Search Bar Fix */
     .search-bar {
         max-width: 100%;
         width: 100%;
@@ -809,7 +807,48 @@ footer {
     }
     
     .products-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    
+    .tabs {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0.5rem;
+        gap: 0.25rem;
+        background-color: #F7F7F7;
+        border-radius: 3rem;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        margin: 1.5rem 0;
+    }
+    
+    .tabs::-webkit-scrollbar {
+        display: none;
+    }
+
+    .tab-btn {
+        width: auto;
+        white-space: nowrap;
+        padding: 0.5rem 1.2rem;
+        flex-shrink: 0;
+        border-radius: 2rem;
+        font-size: 0.9rem;
+        background-color: transparent;
+    }
+    
+    .tab-btn.active {
+        background-color: var(--white);
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    .product-img-wrapper {
+        height: 10rem;
+        background-color: #FAFAFA;
+        border-radius: 1rem;
     }
     
     .mat-images {
@@ -817,7 +856,7 @@ footer {
     }
     
     .mat-col-1 {
-        flex-direction: row;
+        flex-direction: column;
     }
     
     .review-card {
