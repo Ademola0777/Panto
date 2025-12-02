@@ -1,0 +1,65 @@
+# Panto Website Content
+
+## Header / Navbar
+- Logo: Panto
+- Links: Furniture, Shop, About Us, Contact
+
+## Hero Section
+- Heading: Make Your Interior More Minimalistic & Modern
+- Subtext: Turn your room with panto into a lot more minimalist and modern with ease and speed
+- Search Placeholder: Search furniture
+
+## Why Choosing Us
+- Heading: Why Choosing Us
+- Feature 1: Luxury facilities
+    - Description: The advantage of hiring a workspace with us is that givees you comfortable service and all-around facilities.
+- Feature 2: Affordable Price
+    - Description: You can get a workspace of the highst quality at an affordable price and still enjoy the facilities that are oly here.
+- Feature 3: Many Choices
+    - Description: We provide many unique work space choices so that you can choose the workspace to your liking.
+- Link Text: More Info
+
+## Best Selling Product
+- Heading: Best Selling Product
+- Tabs: Chair, Beds, Sofa, Lamp
+- Product Card Example:
+    - Category: Chair
+    - Name: Sakarias Armchair
+    - Price: $392
+- Button: View All
+
+## Experiences
+- Subtitle: EXPERIENCES
+- Heading: We Provide You The Best Experience
+- Description: You don't have to worry about the result because all of these interiors are made by people who are professionals in their fields with an elegant and lucurious style and with premium quality materials
+- Link Text: More Info
+
+## Materials
+- Subtitle: MATERIALS
+- Heading: Very Serious Materials For Making Furniture
+- Description: Because panto was very serious about designing furniture for our environment, using a very expensive and famous capital but at a relatively low price
+- Link Text: More Info
+
+## Testimonials
+- Subtitle: TESTIMONIALS
+- Heading: Our Client Reviews
+- Review 1:
+    - Name: Bang Upin
+    - Title: Pedagang Asongan
+    - Quote: "Terimakasih banyak, kini ruang tamu saya menjadi lebih mewah dan terlihat mahal"
+- Review 2:
+    - Name: Ibuk Sukijan
+    - Title: Ibu Rumah Tangga
+    - Quote: "Makasih Panto, aku sekarang berasa tinggal di apartment karena barang-barang yang terlihat mewah"
+- Review 3:
+    - Name: Mpok Ina
+    - Title: Karyawan Swasta
+    - Quote: "Sangat terjangkau untuk kantong saya yang tidak terlalu banyak duit"
+
+## Footer
+- Brand Text: The advantage of hiring a workspace with us is that givees you comfortable service and all-around facilities.
+- Services: Email Marketing, Campaigns, Branding
+- Furniture: Beds, Chair, All
+- Follow Us: Facebook, Twitter, Instagram
+- Copyright: Copyright © 2021
+- Legal: Terms & Conditions, Privacy Policy
